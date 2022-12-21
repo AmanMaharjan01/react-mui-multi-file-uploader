@@ -10,7 +10,7 @@ $ npm i react-mui-multi-file-uploader
 
 ```
 import { useState } from "react";
-import FileUpload from "./components/src/FileUpload";
+import FileUpload from "react-mui-multi-file-uploader";
 
 function App() {
   const [files, setFiles] = useState<File[] | null>(null);

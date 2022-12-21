@@ -1,7 +1,8 @@
 {
   "name": "react-mui-multi-file-uploader",
-  "version": "1.0.4",
-  "description": "This uploader was created using React TS and MUI.",
+  "version": "1.0.5",
+  "description": "This uploader was created using React Typescript and MUI.",
+  "homepage": "https://github.com/AmanMaharjan01/react-mui-multi-file-uploader",
   "main": "FileUpload.js",
   "scripts": {
     "test": "npm run test",
