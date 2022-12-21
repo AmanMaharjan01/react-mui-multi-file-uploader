@@ -1,0 +1,32 @@
+{
+  "name": "react-mui-multi-file-uploader",
+  "version": "1.0.4",
+  "description": "This uploader was created using React TS and MUI.",
+  "main": "FileUpload.js",
+  "scripts": {
+    "test": "npm run test",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "keywords": [
+    "file-uploader",
+    "uploader",
+    "react-uploader",
+    "mui",
+    "file"
+  ],
+  "author": "AMan",
+  "license": "MIT",
+  "peerDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
